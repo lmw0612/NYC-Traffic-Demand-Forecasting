@@ -1,0 +1,72 @@
+{
+  "artifacts": [],
+  "command": "run",
+  "experiment": {
+    "base_dir": "/home/ec2-user/SageMaker/NYC-Traffic-Demand-Forecasting",
+    "dependencies": [
+      "cufflinks==0.17.3",
+      "ipython==7.16.1",
+      "ipywidgets==7.6.3",
+      "matplotlib==3.3.4",
+      "numpy==1.19.5",
+      "pandas==1.1.5",
+      "plotly==4.14.3",
+      "scikit-learn==0.24.1",
+      "seaborn==0.11.1"
+    ],
+    "mainfile": null,
+    "name": "nyc-demand-prediction",
+    "repositories": [],
+    "sources": []
+  },
+  "heartbeat": "2021-04-01T18:59:27.092758",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Xeon(R) Platinum 8175M CPU @ 2.50GHz",
+    "hostname": "ip-172-16-39-1",
+    "os": [
+      "Linux",
+      "Linux-4.14.225-121.357.amzn1.x86_64-x86_64-with-glibc2.9"
+    ],
+    "python_version": "3.6.13"
+  },
+  "meta": {
+    "command": "run",
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false
+    }
+  },
+  "resources": [],
+  "result": {
+    "mae": {
+      "score": 192858008.35280436
+    },
+    "mape": {
+      "score": 18866538046.06298
+    },
+    "mse": {
+      "score": 3.5418556533263045e+19
+    }
+  },
+  "start_time": "2021-04-01T18:59:25.771597",
+  "status": "COMPLETED",
+  "stop_time": "2021-04-01T18:59:27.087597"
+}
