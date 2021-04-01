@@ -4,7 +4,7 @@
       0
     ],
     "timestamps": [
-      "2021-04-01T18:59:27.085866"
+      "2021-04-01T19:37:48.049547"
     ],
     "values": [
       {
@@ -24,7 +24,7 @@
         },
         "py/object": "pandas.core.frame.DataFrame",
         "txt": true,
-        "values": "mape,mae,mse\n18866538046.06298,192858008.35280436,3.5418556533263045e+19\n"
+        "values": "mape,mae,mse\n,6.9120320855614965,987.7480186051695\n"
       }
     ]
   },
@@ -33,10 +33,10 @@
       0
     ],
     "timestamps": [
-      "2021-04-01T18:59:27.085816"
+      "2021-04-01T19:37:48.049517"
     ],
     "values": [
-      "LinearRegression"
+      "RandomForestRegressor"
     ]
   }
 }
